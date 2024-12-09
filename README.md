@@ -4,3 +4,7 @@ Mainly the code is a python code that is used in the third task of the project (
 The python code automates the brute-force attack on the service as well as the honeypot.
 Tow versions of the python code are provided. They are similar, the difference is that the python script
 that targets the service includes establishing a session with the service (needed by the service).
+
+
+Project commands cannot be shared as a code, they are used in the linux VMs, and so they are mentioned
+in details in the project report.
