@@ -8,3 +8,23 @@ that targets the service includes establishing a session with the service (neede
 
 Project commands cannot be shared as a code, they are used in the linux VMs, and so they are mentioned
 in details in the project report.
+
+##
+Installing Kali
+---
+
+##
+Installing PhpMyadmin
+---
+
+##
+Installing Caldera
+---
+
+##
+Installing The Honeypot
+---
+
+##
+Installing Wazuh
+---
