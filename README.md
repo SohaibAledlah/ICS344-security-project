@@ -10,22 +10,46 @@ Also, the .sh file is a code for the task in Phase4 (the bonus phase), it monito
 Project commands cannot be shared as a code, they are used in the linux VMs, and so they are mentioned
 in details in the project report.
 
-##
-Installing Kali
+## TTPs Used in Caldera
 ---
+### Tactic: Initial Access
 
-##
-Installing PhpMyadmin
----
+T1071.001: Application Layer Protocol: Web Shell (used for creating and managing web-based access)
+T1071.002: Application Layer Protocol: HTTP/S (web traffic)
 
-##
-Installing Caldera
----
+### Tactic: Execution
 
-##
-Installing The Honeypot
----
+T1203: Exploitation for Client Execution (used to simulate exploitation of web-based vulnerabilities)
 
-##
-Installing Wazuh
----
+### Tactic: Persistence
+
+T1071.001: Application Layer Protocol: Web Shell (may also allow persistence on the system)
+
+### Tactic: Privilege Escalation
+
+T1071.001: Application Layer Protocol: Web Shell (used to escalate privileges via web-based access)
+
+### Tactic: Defense Evasion
+
+T1070: Indicator Removal on Host (typically a technique used to clear traces from logs, used in Caldera if adapted for real-world attack simulation)
+T1071.001: Application Layer Protocol: Web Shell (used for stealthy communication to evade detection mechanisms)
+
+### Tactic: Credential Access
+
+T1110: Brute Force (attempting multiple password combinations)
+
+### Tactic: Discovery
+
+T1087: Account Discovery (used for discovering user accounts within a system)
+
+### Tactic: Lateral Movement
+
+T1021: Remote Services (such as SSH or RDP, used to move laterally)
+
+### Tactic: Exfiltration
+
+T1041: Exfiltration Over Command and Control Channel (sending data over a communication channel)
+
+### Tactic: Impact
+
+T1486: Data Encrypted for Impact (used to simulate ransomware scenarios)
